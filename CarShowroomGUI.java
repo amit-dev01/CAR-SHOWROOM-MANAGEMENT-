@@ -77,7 +77,7 @@ public class CarShowroomGUI extends JFrame {
         
         add(scrollPane, BorderLayout.CENTER);
 
-        -
+        
         btnAddShowroom.addActionListener(e -> addShowroom());
         btnAddEmployee.addActionListener(e -> addEmployee());
         btnAddCar.addActionListener(e -> addCar());
@@ -252,3 +252,4 @@ public class CarShowroomGUI extends JFrame {
         });
     }
 }
+
